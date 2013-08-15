@@ -5,6 +5,7 @@ openfiles = set()
 oldfile = __builtin__.file
 # oldfile = builtins.file <== python3
 
+
 class NewFile(oldfile):
 
     def __init__(self, *args):
